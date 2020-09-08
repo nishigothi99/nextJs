@@ -1,1 +1,11 @@
-export default ()=>(<div><h1>Hello</h1><p>To open about.js page than do /about in link</p></div>)
+import Link from 'next/link'
+import Layouts from '../Components/Layouts';
+
+const Index =()=>(
+    <Layouts>
+    <div>
+        <h1>Welcome!!! Lets learning something new</h1>
+    </div>
+    </Layouts>
+)
+export default Index;
