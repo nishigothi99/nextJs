@@ -1,4 +1,3 @@
-import Fetch from 'isomorphic-unfetch'
 import Layouts from '../Components/Layouts';
 import Prices from '../Components/Prices'
 
@@ -18,8 +17,9 @@ Index.getInitialProps= async function() {
     const data =await res.json();
 
     return{
-        bpi:data.bpi
+        bpi:data.bpi,
     }
 }
+
 
 export default Index;
