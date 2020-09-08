@@ -1,0 +1,1 @@
+export default ()=>(<h2>About.Js page</h2>)

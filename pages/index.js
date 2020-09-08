@@ -1,0 +1,1 @@
+export default ()=>(<div><h1>Hello</h1><p>To open about.js page than do /about in link</p></div>)
