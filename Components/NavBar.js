@@ -2,6 +2,7 @@ import Link from "next/link"
 
 const NavBar=()=>(
     <div>
+        <a className="container navbar navbar-expand navbar-dark bg-dark mb-4 navbar-brand" href="#">BitzPrice</a>
     <ul>
     <li><Link href = "/"><a>Home</a></Link></li>
     <li><Link href = "/about"><a>About</a></Link></li>
